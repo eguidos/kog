@@ -1,0 +1,567 @@
+$/Desktop/Code/kog# /bin/bash  /home/peanut/Desktop/Code/kog/run.sh
+20/06/25 03:13:55 WARN Utils: Your hostname, peanut-dog resolves to a loopback address: 127.0.1.1; using 192.168.0.7 instead (on interface wlp2s0)
+20/06/25 03:13:55 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/spark/spark-3.0.0-bin-hadoop2.7/jars/spark-unsafe_2.12-3.0.0.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/06/25 03:13:55 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+20/06/25 03:13:56 INFO SparkContext: Running Spark version 3.0.0
+20/06/25 03:13:56 INFO ResourceUtils: ==============================================================
+20/06/25 03:13:56 INFO ResourceUtils: Resources for spark.driver:
+
+20/06/25 03:13:56 INFO ResourceUtils: ==============================================================
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|8278       |3970  |Pratik Skaggs     |true   |A   |
+|8278       |182   |Uehudah Hack      |false  |C   |
+|8278       |8103  |Edison Drye       |false  |B   |
+|8278       |393   |Mihoko Scholl     |true   |A   |
+|8278       |5088  |Ajani Harding     |false  |D   |
+|8278       |9181  |Ruthie Coco       |false  |C   |
+|8278       |8582  |Orazio Hart       |true   |A   |
+|8278       |7804  |Vinaya Justus     |false  |E   |
+|8278       |3576  |Tristan Karns     |true   |A   |
+|8278       |7223  |Ardath Enriquez   |false  |D   |
+|8278       |7743  |Usagi Denny       |false  |C   |
+|8278       |5593  |Sevita Hershberger|true   |A   |
+|8278       |9867  |Carnation Dingman |false  |B   |
+|8278       |6315  |Niven Glaser      |false  |C   |
+|8278       |4643  |Derwyn Devers     |false  |D   |
+|8278       |3304  |Rossa Fanning     |true   |A   |
+|8278       |2134  |Tod Phan          |false  |D   |
+|8278       |9670  |Eddie Hulse       |false  |E   |
+|8278       |7494  |Welford Yepez     |true   |A   |
+|8278       |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+None
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|795        |3970  |Pratik Skaggs     |true   |A   |
+|795        |182   |Uehudah Hack      |false  |C   |
+|795        |8103  |Edison Drye       |false  |B   |
+|795        |393   |Mihoko Scholl     |true   |A   |
+|795        |5088  |Ajani Harding     |false  |D   |
+|795        |9181  |Ruthie Coco       |false  |C   |
+|795        |8582  |Orazio Hart       |true   |A   |
+|795        |7804  |Vinaya Justus     |false  |E   |
+|795        |3576  |Tristan Karns     |true   |A   |
+|795        |7223  |Ardath Enriquez   |false  |D   |
+|795        |7743  |Usagi Denny       |false  |C   |
+|795        |5593  |Sevita Hershberger|true   |A   |
+|795        |9867  |Carnation Dingman |false  |B   |
+|795        |6315  |Niven Glaser      |false  |C   |
+|795        |4643  |Derwyn Devers     |false  |D   |
+|795        |3304  |Rossa Fanning     |true   |A   |
+|795        |2134  |Tod Phan          |false  |D   |
+|795        |9670  |Eddie Hulse       |false  |E   |
+|795        |7494  |Welford Yepez     |true   |A   |
+|795        |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|4072       |3970  |Pratik Skaggs     |true   |A   |
+|4072       |182   |Uehudah Hack      |false  |C   |
+|4072       |8103  |Edison Drye       |false  |B   |
+|4072       |393   |Mihoko Scholl     |true   |A   |
+|4072       |5088  |Ajani Harding     |false  |D   |
+|4072       |9181  |Ruthie Coco       |false  |C   |
+|4072       |8582  |Orazio Hart       |true   |A   |
+|4072       |7804  |Vinaya Justus     |false  |E   |
+|4072       |3576  |Tristan Karns     |true   |A   |
+|4072       |7223  |Ardath Enriquez   |false  |D   |
+|4072       |7743  |Usagi Denny       |false  |C   |
+|4072       |5593  |Sevita Hershberger|true   |A   |
+|4072       |9867  |Carnation Dingman |false  |B   |
+|4072       |6315  |Niven Glaser      |false  |C   |
+|4072       |4643  |Derwyn Devers     |false  |D   |
+|4072       |3304  |Rossa Fanning     |true   |A   |
+|4072       |2134  |Tod Phan          |false  |D   |
+|4072       |9670  |Eddie Hulse       |false  |E   |
+|4072       |7494  |Welford Yepez     |true   |A   |
+|4072       |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|1496       |3970  |Pratik Skaggs     |true   |A   |
+|1496       |182   |Uehudah Hack      |false  |C   |
+|1496       |8103  |Edison Drye       |false  |B   |
+|1496       |393   |Mihoko Scholl     |true   |A   |
+|1496       |5088  |Ajani Harding     |false  |D   |
+|1496       |9181  |Ruthie Coco       |false  |C   |
+|1496       |8582  |Orazio Hart       |true   |A   |
+|1496       |7804  |Vinaya Justus     |false  |E   |
+|1496       |3576  |Tristan Karns     |true   |A   |
+|1496       |7223  |Ardath Enriquez   |false  |D   |
+|1496       |7743  |Usagi Denny       |false  |C   |
+|1496       |5593  |Sevita Hershberger|true   |A   |
+|1496       |9867  |Carnation Dingman |false  |B   |
+|1496       |6315  |Niven Glaser      |false  |C   |
+|1496       |4643  |Derwyn Devers     |false  |D   |
+|1496       |3304  |Rossa Fanning     |true   |A   |
+|1496       |2134  |Tod Phan          |false  |D   |
+|1496       |9670  |Eddie Hulse       |false  |E   |
+|1496       |7494  |Welford Yepez     |true   |A   |
+|1496       |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|6486       |3970  |Pratik Skaggs     |true   |A   |
+|6486       |182   |Uehudah Hack      |false  |C   |
+|6486       |8103  |Edison Drye       |false  |B   |
+|6486       |393   |Mihoko Scholl     |true   |A   |
+|6486       |5088  |Ajani Harding     |false  |D   |
+|6486       |9181  |Ruthie Coco       |false  |C   |
+|6486       |8582  |Orazio Hart       |true   |A   |
+|6486       |7804  |Vinaya Justus     |false  |E   |
+|6486       |3576  |Tristan Karns     |true   |A   |
+|6486       |7223  |Ardath Enriquez   |false  |D   |
+|6486       |7743  |Usagi Denny       |false  |C   |
+|6486       |5593  |Sevita Hershberger|true   |A   |
+|6486       |9867  |Carnation Dingman |false  |B   |
+|6486       |6315  |Niven Glaser      |false  |C   |
+|6486       |4643  |Derwyn Devers     |false  |D   |
+|6486       |3304  |Rossa Fanning     |true   |A   |
+|6486       |2134  |Tod Phan          |false  |D   |
+|6486       |9670  |Eddie Hulse       |false  |E   |
+|6486       |7494  |Welford Yepez     |true   |A   |
+|6486       |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|484        |3970  |Pratik Skaggs     |true   |A   |
+|484        |182   |Uehudah Hack      |false  |C   |
+|484        |8103  |Edison Drye       |false  |B   |
+|484        |393   |Mihoko Scholl     |true   |A   |
+|484        |5088  |Ajani Harding     |false  |D   |
+|484        |9181  |Ruthie Coco       |false  |C   |
+|484        |8582  |Orazio Hart       |true   |A   |
+|484        |7804  |Vinaya Justus     |false  |E   |
+|484        |3576  |Tristan Karns     |true   |A   |
+|484        |7223  |Ardath Enriquez   |false  |D   |
+|484        |7743  |Usagi Denny       |false  |C   |
+|484        |5593  |Sevita Hershberger|true   |A   |
+|484        |9867  |Carnation Dingman |false  |B   |
+|484        |6315  |Niven Glaser      |false  |C   |
+|484        |4643  |Derwyn Devers     |false  |D   |
+|484        |3304  |Rossa Fanning     |true   |A   |
+|484        |2134  |Tod Phan          |false  |D   |
+|484        |9670  |Eddie Hulse       |false  |E   |
+|484        |7494  |Welford Yepez     |true   |A   |
+|484        |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|5797       |3970  |Pratik Skaggs     |true   |A   |
+|5797       |182   |Uehudah Hack      |false  |C   |
+|5797       |8103  |Edison Drye       |false  |B   |
+|5797       |393   |Mihoko Scholl     |true   |A   |
+|5797       |5088  |Ajani Harding     |false  |D   |
+|5797       |9181  |Ruthie Coco       |false  |C   |
+|5797       |8582  |Orazio Hart       |true   |A   |
+|5797       |7804  |Vinaya Justus     |false  |E   |
+|5797       |3576  |Tristan Karns     |true   |A   |
+|5797       |7223  |Ardath Enriquez   |false  |D   |
+|5797       |7743  |Usagi Denny       |false  |C   |
+|5797       |5593  |Sevita Hershberger|true   |A   |
+|5797       |9867  |Carnation Dingman |false  |B   |
+|5797       |6315  |Niven Glaser      |false  |C   |
+|5797       |4643  |Derwyn Devers     |false  |D   |
+|5797       |3304  |Rossa Fanning     |true   |A   |
+|5797       |2134  |Tod Phan          |false  |D   |
+|5797       |9670  |Eddie Hulse       |false  |E   |
+|5797       |7494  |Welford Yepez     |true   |A   |
+|5797       |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|7585       |3970  |Pratik Skaggs     |true   |A   |
+|7585       |182   |Uehudah Hack      |false  |C   |
+|7585       |8103  |Edison Drye       |false  |B   |
+|7585       |393   |Mihoko Scholl     |true   |A   |
+|7585       |5088  |Ajani Harding     |false  |D   |
+|7585       |9181  |Ruthie Coco       |false  |C   |
+|7585       |8582  |Orazio Hart       |true   |A   |
+|7585       |7804  |Vinaya Justus     |false  |E   |
+|7585       |3576  |Tristan Karns     |true   |A   |
+|7585       |7223  |Ardath Enriquez   |false  |D   |
+|7585       |7743  |Usagi Denny       |false  |C   |
+|7585       |5593  |Sevita Hershberger|true   |A   |
+|7585       |9867  |Carnation Dingman |false  |B   |
+|7585       |6315  |Niven Glaser      |false  |C   |
+|7585       |4643  |Derwyn Devers     |false  |D   |
+|7585       |3304  |Rossa Fanning     |true   |A   |
+|7585       |2134  |Tod Phan          |false  |D   |
+|7585       |9670  |Eddie Hulse       |false  |E   |
+|7585       |7494  |Welford Yepez     |true   |A   |
+|7585       |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|3472       |3970  |Pratik Skaggs     |true   |A   |
+|3472       |182   |Uehudah Hack      |false  |C   |
+|3472       |8103  |Edison Drye       |false  |B   |
+|3472       |393   |Mihoko Scholl     |true   |A   |
+|3472       |5088  |Ajani Harding     |false  |D   |
+|3472       |9181  |Ruthie Coco       |false  |C   |
+|3472       |8582  |Orazio Hart       |true   |A   |
+|3472       |7804  |Vinaya Justus     |false  |E   |
+|3472       |3576  |Tristan Karns     |true   |A   |
+|3472       |7223  |Ardath Enriquez   |false  |D   |
+|3472       |7743  |Usagi Denny       |false  |C   |
+|3472       |5593  |Sevita Hershberger|true   |A   |
+|3472       |9867  |Carnation Dingman |false  |B   |
+|3472       |6315  |Niven Glaser      |false  |C   |
+|3472       |4643  |Derwyn Devers     |false  |D   |
+|3472       |3304  |Rossa Fanning     |true   |A   |
+|3472       |2134  |Tod Phan          |false  |D   |
+|3472       |9670  |Eddie Hulse       |false  |E   |
+|3472       |7494  |Welford Yepez     |true   |A   |
+|3472       |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|3814       |3970  |Pratik Skaggs     |true   |A   |
+|3814       |182   |Uehudah Hack      |false  |C   |
+|3814       |8103  |Edison Drye       |false  |B   |
+|3814       |393   |Mihoko Scholl     |true   |A   |
+|3814       |5088  |Ajani Harding     |false  |D   |
+|3814       |9181  |Ruthie Coco       |false  |C   |
+|3814       |8582  |Orazio Hart       |true   |A   |
+|3814       |7804  |Vinaya Justus     |false  |E   |
+|3814       |3576  |Tristan Karns     |true   |A   |
+|3814       |7223  |Ardath Enriquez   |false  |D   |
+|3814       |7743  |Usagi Denny       |false  |C   |
+|3814       |5593  |Sevita Hershberger|true   |A   |
+|3814       |9867  |Carnation Dingman |false  |B   |
+|3814       |6315  |Niven Glaser      |false  |C   |
+|3814       |4643  |Derwyn Devers     |false  |D   |
+|3814       |3304  |Rossa Fanning     |true   |A   |
+|3814       |2134  |Tod Phan          |false  |D   |
+|3814       |9670  |Eddie Hulse       |false  |E   |
+|3814       |7494  |Welford Yepez     |true   |A   |
+|3814       |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|7106       |3970  |Pratik Skaggs     |true   |A   |
+|7106       |182   |Uehudah Hack      |false  |C   |
+|7106       |8103  |Edison Drye       |false  |B   |
+|7106       |393   |Mihoko Scholl     |true   |A   |
+|7106       |5088  |Ajani Harding     |false  |D   |
+|7106       |9181  |Ruthie Coco       |false  |C   |
+|7106       |8582  |Orazio Hart       |true   |A   |
+|7106       |7804  |Vinaya Justus     |false  |E   |
+|7106       |3576  |Tristan Karns     |true   |A   |
+|7106       |7223  |Ardath Enriquez   |false  |D   |
+|7106       |7743  |Usagi Denny       |false  |C   |
+|7106       |5593  |Sevita Hershberger|true   |A   |
+|7106       |9867  |Carnation Dingman |false  |B   |
+|7106       |6315  |Niven Glaser      |false  |C   |
+|7106       |4643  |Derwyn Devers     |false  |D   |
+|7106       |3304  |Rossa Fanning     |true   |A   |
+|7106       |2134  |Tod Phan          |false  |D   |
+|7106       |9670  |Eddie Hulse       |false  |E   |
+|7106       |7494  |Welford Yepez     |true   |A   |
+|7106       |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|3518       |3970  |Pratik Skaggs     |true   |A   |
+|3518       |182   |Uehudah Hack      |false  |C   |
+|3518       |8103  |Edison Drye       |false  |B   |
+|3518       |393   |Mihoko Scholl     |true   |A   |
+|3518       |5088  |Ajani Harding     |false  |D   |
+|3518       |9181  |Ruthie Coco       |false  |C   |
+|3518       |8582  |Orazio Hart       |true   |A   |
+|3518       |7804  |Vinaya Justus     |false  |E   |
+|3518       |3576  |Tristan Karns     |true   |A   |
+|3518       |7223  |Ardath Enriquez   |false  |D   |
+|3518       |7743  |Usagi Denny       |false  |C   |
+|3518       |5593  |Sevita Hershberger|true   |A   |
+|3518       |9867  |Carnation Dingman |false  |B   |
+|3518       |6315  |Niven Glaser      |false  |C   |
+|3518       |4643  |Derwyn Devers     |false  |D   |
+|3518       |3304  |Rossa Fanning     |true   |A   |
+|3518       |2134  |Tod Phan          |false  |D   |
+|3518       |9670  |Eddie Hulse       |false  |E   |
+|3518       |7494  |Welford Yepez     |true   |A   |
+|3518       |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|43         |3970  |Pratik Skaggs     |true   |A   |
+|43         |182   |Uehudah Hack      |false  |C   |
+|43         |8103  |Edison Drye       |false  |B   |
+|43         |393   |Mihoko Scholl     |true   |A   |
+|43         |5088  |Ajani Harding     |false  |D   |
+|43         |9181  |Ruthie Coco       |false  |C   |
+|43         |8582  |Orazio Hart       |true   |A   |
+|43         |7804  |Vinaya Justus     |false  |E   |
+|43         |3576  |Tristan Karns     |true   |A   |
+|43         |7223  |Ardath Enriquez   |false  |D   |
+|43         |7743  |Usagi Denny       |false  |C   |
+|43         |5593  |Sevita Hershberger|true   |A   |
+|43         |9867  |Carnation Dingman |false  |B   |
+|43         |6315  |Niven Glaser      |false  |C   |
+|43         |4643  |Derwyn Devers     |false  |D   |
+|43         |3304  |Rossa Fanning     |true   |A   |
+|43         |2134  |Tod Phan          |false  |D   |
+|43         |9670  |Eddie Hulse       |false  |E   |
+|43         |7494  |Welford Yepez     |true   |A   |
+|43         |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+None
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|852        |3970  |Pratik Skaggs     |true   |A   |
+|852        |182   |Uehudah Hack      |false  |C   |
+|852        |8103  |Edison Drye       |false  |B   |
+|852        |393   |Mihoko Scholl     |true   |A   |
+|852        |5088  |Ajani Harding     |false  |D   |
+|852        |9181  |Ruthie Coco       |false  |C   |
+|852        |8582  |Orazio Hart       |true   |A   |
+|852        |7804  |Vinaya Justus     |false  |E   |
+|852        |3576  |Tristan Karns     |true   |A   |
+|852        |7223  |Ardath Enriquez   |false  |D   |
+|852        |7743  |Usagi Denny       |false  |C   |
+|852        |5593  |Sevita Hershberger|true   |A   |
+|852        |9867  |Carnation Dingman |false  |B   |
+|852        |6315  |Niven Glaser      |false  |C   |
+|852        |4643  |Derwyn Devers     |false  |D   |
+|852        |3304  |Rossa Fanning     |true   |A   |
+|852        |2134  |Tod Phan          |false  |D   |
+|852        |9670  |Eddie Hulse       |false  |E   |
+|852        |7494  |Welford Yepez     |true   |A   |
+|852        |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|169        |3970  |Pratik Skaggs     |true   |A   |
+|169        |182   |Uehudah Hack      |false  |C   |
+|169        |8103  |Edison Drye       |false  |B   |
+|169        |393   |Mihoko Scholl     |true   |A   |
+|169        |5088  |Ajani Harding     |false  |D   |
+|169        |9181  |Ruthie Coco       |false  |C   |
+|169        |8582  |Orazio Hart       |true   |A   |
+|169        |7804  |Vinaya Justus     |false  |E   |
+|169        |3576  |Tristan Karns     |true   |A   |
+|169        |7223  |Ardath Enriquez   |false  |D   |
+|169        |7743  |Usagi Denny       |false  |C   |
+|169        |5593  |Sevita Hershberger|true   |A   |
+|169        |9867  |Carnation Dingman |false  |B   |
+|169        |6315  |Niven Glaser      |false  |C   |
+|169        |4643  |Derwyn Devers     |false  |D   |
+|169        |3304  |Rossa Fanning     |true   |A   |
+|169        |2134  |Tod Phan          |false  |D   |
+|169        |9670  |Eddie Hulse       |false  |E   |
+|169        |7494  |Welford Yepez     |true   |A   |
+|169        |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|5890       |3970  |Pratik Skaggs     |true   |A   |
+|5890       |182   |Uehudah Hack      |false  |C   |
+|5890       |8103  |Edison Drye       |false  |B   |
+|5890       |393   |Mihoko Scholl     |true   |A   |
+|5890       |5088  |Ajani Harding     |false  |D   |
+|5890       |9181  |Ruthie Coco       |false  |C   |
+|5890       |8582  |Orazio Hart       |true   |A   |
+|5890       |7804  |Vinaya Justus     |false  |E   |
+|5890       |3576  |Tristan Karns     |true   |A   |
+|5890       |7223  |Ardath Enriquez   |false  |D   |
+|5890       |7743  |Usagi Denny       |false  |C   |
+|5890       |5593  |Sevita Hershberger|true   |A   |
+|5890       |9867  |Carnation Dingman |false  |B   |
+|5890       |6315  |Niven Glaser      |false  |C   |
+|5890       |4643  |Derwyn Devers     |false  |D   |
+|5890       |3304  |Rossa Fanning     |true   |A   |
+|5890       |2134  |Tod Phan          |false  |D   |
+|5890       |9670  |Eddie Hulse       |false  |E   |
+|5890       |7494  |Welford Yepez     |true   |A   |
+|5890       |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|8403       |3970  |Pratik Skaggs     |true   |A   |
+|8403       |182   |Uehudah Hack      |false  |C   |
+|8403       |8103  |Edison Drye       |false  |B   |
+|8403       |393   |Mihoko Scholl     |true   |A   |
+|8403       |5088  |Ajani Harding     |false  |D   |
+|8403       |9181  |Ruthie Coco       |false  |C   |
+|8403       |8582  |Orazio Hart       |true   |A   |
+|8403       |7804  |Vinaya Justus     |false  |E   |
+|8403       |3576  |Tristan Karns     |true   |A   |
+|8403       |7223  |Ardath Enriquez   |false  |D   |
+|8403       |7743  |Usagi Denny       |false  |C   |
+|8403       |5593  |Sevita Hershberger|true   |A   |
+|8403       |9867  |Carnation Dingman |false  |B   |
+|8403       |6315  |Niven Glaser      |false  |C   |
+|8403       |4643  |Derwyn Devers     |false  |D   |
+|8403       |3304  |Rossa Fanning     |true   |A   |
+|8403       |2134  |Tod Phan          |false  |D   |
+|8403       |9670  |Eddie Hulse       |false  |E   |
+|8403       |7494  |Welford Yepez     |true   |A   |
+|8403       |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|21         |3970  |Pratik Skaggs     |true   |A   |
+|21         |182   |Uehudah Hack      |false  |C   |
+|21         |8103  |Edison Drye       |false  |B   |
+|21         |393   |Mihoko Scholl     |true   |A   |
+|21         |5088  |Ajani Harding     |false  |D   |
+|21         |9181  |Ruthie Coco       |false  |C   |
+|21         |8582  |Orazio Hart       |true   |A   |
+|21         |7804  |Vinaya Justus     |false  |E   |
+|21         |3576  |Tristan Karns     |true   |A   |
+|21         |7223  |Ardath Enriquez   |false  |D   |
+|21         |7743  |Usagi Denny       |false  |C   |
+|21         |5593  |Sevita Hershberger|true   |A   |
+|21         |9867  |Carnation Dingman |false  |B   |
+|21         |6315  |Niven Glaser      |false  |C   |
+|21         |4643  |Derwyn Devers     |false  |D   |
+|21         |3304  |Rossa Fanning     |true   |A   |
+|21         |2134  |Tod Phan          |false  |D   |
+|21         |9670  |Eddie Hulse       |false  |E   |
+|21         |7494  |Welford Yepez     |true   |A   |
+|21         |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|793        |3970  |Pratik Skaggs     |true   |A   |
+|793        |182   |Uehudah Hack      |false  |C   |
+|793        |8103  |Edison Drye       |false  |B   |
+|793        |393   |Mihoko Scholl     |true   |A   |
+|793        |5088  |Ajani Harding     |false  |D   |
+|793        |9181  |Ruthie Coco       |false  |C   |
+|793        |8582  |Orazio Hart       |true   |A   |
+|793        |7804  |Vinaya Justus     |false  |E   |
+|793        |3576  |Tristan Karns     |true   |A   |
+|793        |7223  |Ardath Enriquez   |false  |D   |
+|793        |7743  |Usagi Denny       |false  |C   |
+|793        |5593  |Sevita Hershberger|true   |A   |
+|793        |9867  |Carnation Dingman |false  |B   |
+|793        |6315  |Niven Glaser      |false  |C   |
+|793        |4643  |Derwyn Devers     |false  |D   |
+|793        |3304  |Rossa Fanning     |true   |A   |
+|793        |2134  |Tod Phan          |false  |D   |
+|793        |9670  |Eddie Hulse       |false  |E   |
+|793        |7494  |Welford Yepez     |true   |A   |
+|793        |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+
++-----------+------+------------------+-------+----+
+|ID_EXECUCAO|CDALUN|NOME_ALUNO        |DECISAO|COD1|
++-----------+------+------------------+-------+----+
+|1844       |3970  |Pratik Skaggs     |true   |A   |
+|1844       |182   |Uehudah Hack      |false  |C   |
+|1844       |8103  |Edison Drye       |false  |B   |
+|1844       |393   |Mihoko Scholl     |true   |A   |
+|1844       |5088  |Ajani Harding     |false  |D   |
+|1844       |9181  |Ruthie Coco       |false  |C   |
+|1844       |8582  |Orazio Hart       |true   |A   |
+|1844       |7804  |Vinaya Justus     |false  |E   |
+|1844       |3576  |Tristan Karns     |true   |A   |
+|1844       |7223  |Ardath Enriquez   |false  |D   |
+|1844       |7743  |Usagi Denny       |false  |C   |
+|1844       |5593  |Sevita Hershberger|true   |A   |
+|1844       |9867  |Carnation Dingman |false  |B   |
+|1844       |6315  |Niven Glaser      |false  |C   |
+|1844       |4643  |Derwyn Devers     |false  |D   |
+|1844       |3304  |Rossa Fanning     |true   |A   |
+|1844       |2134  |Tod Phan          |false  |D   |
+|1844       |9670  |Eddie Hulse       |false  |E   |
+|1844       |7494  |Welford Yepez     |true   |A   |
+|1844       |8167  |Rishley Snyder    |false  |C   |
++-----------+------+------------------+-------+----+
+only showing top 20 rows
+
+None
+20/06/25 03:24:01 INFO SparkContext: Invoking stop() from shutdown hook
+20/06/25 03:24:01 INFO SparkUI: Stopped Spark web UI at http://192.168.0.7:4040
+20/06/25 03:24:01 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/06/25 03:24:01 INFO MemoryStore: MemoryStore cleared
+20/06/25 03:24:01 INFO BlockManager: BlockManager stopped
+20/06/25 03:24:01 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/06/25 03:24:01 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/06/25 03:24:01 INFO SparkContext: Successfully stopped SparkContext
+20/06/25 03:24:01 INFO ShutdownHookManager: Shutdown hook called
+20/06/25 03:24:01 INFO ShutdownHookManager: Deleting directory /tmp/spark-8c72ad40-2e02-4602-a809-29521ee78156/pyspark-da65bfad-9a9f-4ad8-82a2-8c17f11079fb
+20/06/25 03:24:01 INFO ShutdownHookManager: Deleting directory /tmp/spark-8c72ad40-2e02-4602-a809-29521ee78156
+20/06/25 03:24:01 INFO ShutdownHookManager: Deleting directory /tmp/spark-c3f7b03f-c0ac-42fa-9132-875db4bf4f83
+root@peanut-dog:~/Desktop/Code/kog#
